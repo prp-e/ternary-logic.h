@@ -1,15 +1,7 @@
 #include "ternary-logic.h"
 
 ternary negate(ternary a){
-    if(a == TRUE){
-        return FALSE; 
-    }
-    else if (a == MAYBE){
-        return MAYBE; 
-    }
-    else {
-        return TRUE; 
-    }
+  return a * -1;
 }
 
 ternary t_and(ternary a, ternary b){
