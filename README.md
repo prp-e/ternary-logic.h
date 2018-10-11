@@ -20,6 +20,10 @@ int main(){
 ``` 
 
 consider my current implementation only supports 2-input logic functions. 
+for compiling just use : 
+```
+gcc -o output canary.c ternary-logic.c
+``` 
 
 ## To Do 
 1. making multiple-input functions 
